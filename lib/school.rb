@@ -38,8 +38,8 @@ class School
     # hash["new_key"] = "New Value"
   end
 
-  def grade(grade)
-    roster[grade]
+  def grade(grade) # Given a specifc key (grade)...
+    roster[grade] # Return all students in that grade
   end
 
   def sort
