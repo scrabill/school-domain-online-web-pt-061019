@@ -59,3 +59,4 @@ class School
 # >>>>>>> 13a2e7aa07e679143290145b332411e4e80acd9b
 #   end
 end
+end
