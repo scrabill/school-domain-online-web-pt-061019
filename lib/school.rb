@@ -3,7 +3,7 @@ require "pry"
 # code here!
 class School
 
-  attr_accessor :name, :roster
+  attr_accessor :name, :roster # Properties of each school instance
 
   def initialize(name)
     @name = name
