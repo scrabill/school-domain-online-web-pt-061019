@@ -28,8 +28,8 @@ class School
 
   def add_student(name,grade)
 
-    if roster.has_key?(grade)
-      roster[grade] << name
+    if roster.has_key?(grade) # If the roster already has a key, with the given grade...
+      roster[grade] << name # Then add the student (value) to that grade (key)
     else
       roster[grade] = []
       roster[grade] << name
