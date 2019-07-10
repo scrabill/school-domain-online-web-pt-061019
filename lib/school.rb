@@ -7,7 +7,7 @@ class School
 
   def initialize(name)
     @name = name
-    @roster = {}
+    @roster = {} # Note that roster is a hash, not an array
   end
 
   # def name=(name)
